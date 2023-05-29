@@ -1,16 +1,24 @@
-import React from 'react';
-import './index.css';
+import './App.css';
+
 import Header from './components/header/Header'
-import Navbar from './components/navbar/Navbar'
-import About from './components/about/About' 
-import Footer from './components/footer/Footer'
+import Contact from './components/contact/Contact'
+import About from './components/about/About'
+import Service from './components/servicess/Service'
+import Nav from './components/nav/Nav'
+import Testimonial from './components/testimonial/Testimonial';
+import Portfolio from './components/portfolio/Portfolio';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <>
       <Header/>
-      <Navbar/>
+      <Nav/>
       <About/>
+      <Service/>
+      <Testimonial/>
+      <Portfolio/>
+      <Contact/>
       <Footer/>
     </>
   );
